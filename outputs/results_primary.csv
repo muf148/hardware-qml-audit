@@ -1,0 +1,4 @@
+endpoint,estimate,95% CI,test events,declared
+1. AUC(R) - AUC(classical),-0.013321639893871029,-0.075 to +0.047,640,False
+2. AUC(C) - AUC(R),-0.0075711320063499565,-0.071 to +0.057,640,False
+3. AUC(N) - 0.5,0.011484363725174473,-0.037 to +0.057,640,False

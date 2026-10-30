@@ -1,0 +1,9 @@
+{
+  "title": "hardware-qml-audit: a null-circuit protocol for testing hardware quantum machine learning claims (code)",
+  "upload_type": "software",
+  "description": "Code, notebooks, frozen pre-registration and results for a pre-registered test of projected quantum feature maps on 129 qubits of ibm_fez, and a five-step protocol (null circuit, batch identifiability, controlled job assignment, replay of submission orders, job-purged backtest) for testing hardware quantum machine learning claims on tabular data. The hardware outputs and data tables are in a companion data record.",
+  "creators": [{"name": "Faryad, Muhammad", "affiliation": "Lahore University of Management Sciences (LUMS)"}],
+  "license": "MIT",
+  "keywords": ["quantum machine learning", "projected quantum feature maps", "batch effects", "pre-registration", "IBM Quantum"],
+  "related_identifiers": [{"identifier": "arXiv:2509.17715", "relation": "references", "scheme": "arxiv"}]
+}

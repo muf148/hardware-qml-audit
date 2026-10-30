@@ -1,0 +1,66 @@
+{
+ "job within session | N arm, hardware features": {
+  "AUC per session": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "median AUC": 1.0,
+  "sessions with p < 0.05": 8,
+  "of": 8
+ },
+ "job within session | R arm, hardware features": {
+  "AUC per session": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "median AUC": 1.0,
+  "sessions with p < 0.05": 8,
+  "of": 8
+ },
+ "job within session | R arm, classical (control) features": {
+  "AUC per session": [
+   0.434,
+   0.564,
+   0.691,
+   0.452,
+   0.537,
+   0.49,
+   0.593,
+   0.527
+  ],
+  "median AUC": 0.532,
+  "sessions with p < 0.05": 1,
+  "of": 8
+ },
+ "session | N arm, hardware features": {
+  "score": 1.0,
+  "chance (permutation mean)": 0.125,
+  "p": 0.0099,
+  "chance (1/8)": 0.125
+ },
+ "session | R arm, hardware features": {
+  "score": 1.0,
+  "chance (permutation mean)": 0.124,
+  "p": 0.0099,
+  "chance (1/8)": 0.125
+ },
+ "session | R arm, classical (control) features": {
+  "score": 0.116,
+  "chance (permutation mean)": 0.125,
+  "p": 0.7723,
+  "chance (1/8)": 0.125
+ },
+ "note": "Within-session job differences are uncorrelated across sessions (mean r = -0.017); d-prime between the two jobs of a session, over all 387 features: 17 to 24 shot-noise units."
+}

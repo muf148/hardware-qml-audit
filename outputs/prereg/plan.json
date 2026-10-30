@@ -1,0 +1,37 @@
+{
+ "created_utc": "2026-10-19 05:54:42",
+ "shots": 1024,
+ "sessions": 8,
+ "jobs_per_session": 2,
+ "cap_min": 50.0,
+ "budget_rule": "halve the null arm before session 1 if projected > cap",
+ "backtest": {
+  "train_fraction": 0.36,
+  "block_fraction": 0.04,
+  "blinds": [
+   0,
+   1,
+   2
+  ],
+  "families_primary": [
+   "LR",
+   "XGB"
+  ],
+  "families_secondary": [
+   "LR",
+   "XGB",
+   "RF",
+   "NN"
+  ]
+ },
+ "mitigation": "Pauli twirling on gates and readout + TREX, no ZNE (as HSBC)",
+ "device": "ibm_fez",
+ "chain_qubits": 129,
+ "anchor": null,
+ "label_rule": {
+  "delta_bps": 5.0,
+  "horizon_s": 60.0,
+  "day1_rate": 0.376
+ },
+ "decision_rules": "see H3.6"
+}

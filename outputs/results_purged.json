@@ -1,0 +1,30 @@
+{
+ "by outcome, standard backtest": [
+  0.778,
+  [
+   0.741,
+   0.812
+  ]
+ ],
+ "by outcome, job-purged backtest": [
+  0.514,
+  [
+   0.468,
+   0.562
+  ]
+ ],
+ "chronological, standard backtest": [
+  0.511,
+  [
+   0.463,
+   0.557
+  ]
+ ],
+ "chronological, job-purged backtest": [
+  0.508,
+  [
+   0.458,
+   0.554
+  ]
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "Q2": {
+  "slope (signal kept across events), median": 0.616,
+  "correlation with noiseless, median": 0.392,
+  "correlation if only shot noise were added, median": 0.421,
+  "residual sd / reported shot sd, median": 1.052,
+  "noiseless across-event sd, median": 0.0315
+ },
+ "deviation 2": {
+  "sigma_day median, frac>1 (8 sessions as 8 blocks)": [
+   0.291,
+   0.127
+  ],
+  "same, sessions 2 and 3 as one block": [
+   0.268,
+   0.119
+  ],
+  "mean |difference| of null-arm means, sessions 2 vs 3": 0.0247,
+  "same for other consecutive sessions (mean)": 0.0241
+ },
+ "paired, blinding 0": {
+  "noiseless - classical": [
+   0.01,
+   [
+    -0.037,
+    0.056
+   ]
+  ],
+  "R - noiseless": [
+   -0.023,
+   [
+    -0.073,
+    0.026
+   ]
+  ],
+  "R - classical": [
+   -0.013,
+   [
+    -0.075,
+    0.047
+   ]
+  ],
+  "C - R": [
+   -0.008,
+   [
+    -0.071,
+    0.057
+   ]
+  ],
+  "classical + R - classical": [
+   0.023,
+   [
+    -0.019,
+    0.066
+   ]
+  ],
+  "classical + noiseless - classical": [
+   0.013,
+   [
+    -0.024,
+    0.051
+   ]
+  ],
+  "classical + R - classical + noiseless": [
+   0.01,
+   [
+    -0.036,
+    0.056
+   ]
+  ]
+ },
+ "AUC, blinding 0": {
+  "classical": 0.583,
+  "noiseless": 0.593,
+  "R": 0.57,
+  "C": 0.562,
+  "N": 0.511,
+  "classical + R": 0.606,
+  "classical + noiseless": 0.596
+ },
+ "replay by outcome": {
+  "AUC and 95% CI": [
+   0.778,
+   [
+    0.741,
+    0.812
+   ]
+  ],
+  "with job means removed": [
+   0.503,
+   [
+    0.457,
+    0.549
+   ]
+  ],
+  "chronological, AUC and CI": [
+   0.511,
+   [
+    0.463,
+    0.557
+   ]
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+# Data come from Zenodo; unzip into outputs/
+outputs/hardware/
+outputs/*.csv
+outputs/*.npy
+outputs/*.json
+!outputs/results_*.csv
+!outputs/results_*.json
+data/
+
+# Local only
+push_to_github.ipynb
+paper/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Never commit IBM Quantum credentials
+qiskit-ibm.json
+.qiskit/
+*.env
+.env

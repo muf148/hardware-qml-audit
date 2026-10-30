@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and the archive."
+title: "hardware-qml-audit: a null-circuit protocol for testing hardware quantum machine learning claims"
+authors:
+  - family-names: Faryad
+    given-names: Muhammad
+    affiliation: "Department of Physics, Lahore University of Management Sciences (LUMS)"
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+repository-code: "https://github.com/muf148/hardware-qml-audit"
+keywords:
+  - quantum machine learning
+  - projected quantum feature maps
+  - batch effects
+  - pre-registration
+  - IBM Quantum

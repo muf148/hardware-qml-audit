@@ -1,6 +1,9 @@
 # hardware-qml-audit
 
-Code for *A null-circuit protocol for testing hardware quantum machine learning claims* (M. Faryad, 2026).
+[![Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23791922.svg)](https://doi.org/10.5281/zenodo.23791922)
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23791585.svg)](https://doi.org/10.5281/zenodo.23791585)
+
+Code for *Testing hardware quantum machine learning claims with a null circuit: fill prediction on Binance futures with 129 qubits of an IBM Heron processor* (M. Faryad, 2026).
 
 The paper tests a hardware quantum machine learning claim: that features measured on an IBM quantum processor
 improve fill-probability models far beyond classical features (Ciceri et al., arXiv:2509.17715). It proposes a
@@ -24,7 +27,7 @@ SHA-256 `3eb1668a2cbd0ff3bd698c025657aedf137ed9cba82e75747970668648e85a8e`).
 | `outputs/prereg/` | The frozen pre-registration: schedule, plan, predictions, baselines, fingerprint |
 | `outputs/results_*` | Results of H5 (pre-registered) and H6 (exploratory) |
 
-The data are on Zenodo (DOI below): the event and feature tables, the noiseless features, every hardware job's
+The data are on Zenodo ([10.5281/zenodo.23791585](https://doi.org/10.5281/zenodo.23791585)): the event and feature tables, the noiseless features, every hardware job's
 output and the device calibration at each session. Download the two archives and unzip both in the repository folder; they fill `outputs/`.
 
 ## Notebooks
@@ -51,7 +54,10 @@ set `ACCOUNT` in its first cell to yours.
 
 ## Citation
 
-See `CITATION.cff`. Data: Zenodo, 10.5281/zenodo.23791585
+See `CITATION.cff`.
+
+- Code (v1.0.0): [10.5281/zenodo.23791922](https://doi.org/10.5281/zenodo.23791922)
+- Data (v1.0): [10.5281/zenodo.23791585](https://doi.org/10.5281/zenodo.23791585)
 
 ## License
 

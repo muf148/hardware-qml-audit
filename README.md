@@ -51,7 +51,7 @@ set `ACCOUNT` in its first cell to yours.
 
 ## Citation
 
-See `CITATION.cff`. Data: Zenodo, DOI to be added.
+See `CITATION.cff`. Data: Zenodo, 10.5281/zenodo.23791585
 
 ## License
 

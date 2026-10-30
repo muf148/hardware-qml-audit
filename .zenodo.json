@@ -5,5 +5,6 @@
   "creators": [{"name": "Faryad, Muhammad", "affiliation": "Lahore University of Management Sciences (LUMS)"}],
   "license": "MIT",
   "keywords": ["quantum machine learning", "projected quantum feature maps", "batch effects", "pre-registration", "IBM Quantum"],
-  "related_identifiers": [{"identifier": "arXiv:2509.17715", "relation": "references", "scheme": "arxiv"}]
+  "related_identifiers": [{"identifier": "arXiv:2509.17715", "relation": "references", "scheme": "arxiv"},
+{"identifier": "10.5281/zenodo.23791585", "relation": "isSupplementedBy", "scheme": "doi"}]
 }
